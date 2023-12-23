@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <nav>
+            <div class="logo">
+                <img src="/image/email.svg" alt="" class="emailImage" width="26" height="26">
+                eVALIDATE
+            </div>
+            <div class="link-container">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact Us</a>
+            </div>
+        </nav>
+        <main>
+            <div class="container">
+                <h1>Enter your Email to validate</h1>
+                <div class="formm" data-form>
+                    <!-- <label for="username">Username</label> -->
+                    <input id="username" placeholder="Enter your email here" data-info>
+                    <br></br>
+                    <button class="sub-btn">Submit</button>
+                </div>
+            </div>
+
+            <h2>Your Result</h2>
+            <img src="image/loading-51.gif" alt="" height="100" width="100" class="loading" data-loading>
+            <div class="information-container">
+                <div class="parameter email-addres">
+                    <div class="para1">email address</div>
+                    <div data-email-add></div>
+                </div>
+                <div class="parameter state">
+                    <div class="para1">state</div>
+                    <div data-state></div>
+                </div>
+                <div class="parameter reason">
+                    <div class="para1">reason</div>
+                    <div data-reason></div>
+                </div>
+                <div class="parameter domain">
+                    <div class="para1">domain</div>
+                    <div data-domain></div>
+                </div>
+                <div class="parameter user">
+                    <div class="para1">user</div>
+                    <div data-user></div>
+                </div>
+                <div class="parameter format-valid">
+                    <div class="para1">format valid</div>
+                    <div data-format-valid></div>
+                </div>
+                <div class="parameter mx-valid">
+                    <div class="para1">MX-Valid</div>
+                    <div data-mx></div>
+                </div>
+                <div class="parameter score">
+                    <div class="para1">Score</div>
+                    <div data-score></div>
+                </div>
+                <div class="parameter role-email-address">
+                    <div class="para1">role email address</div>
+                    <div data-role-email></div>
+                </div>
+                <div class="parameter free-email-provider">
+                    <div class="para1">free email provider</div>
+                    <div data-free-email></div>
+                </div>
+                <div class="parameter notpara disposable-email-provider">
+                    <div class="para1">Disposable Email Provider</div>
+                    <div data-disposable></div>
+                </div>
+            </div>
+        </main>
+        <footer>Copyright eVALIDATE.com | All Rights reserved</footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
